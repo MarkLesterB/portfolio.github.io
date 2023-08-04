@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Mark Portfolio</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/portfilio.css">
+    <link rel="stylesheet" href="styles/project.css">
+    
+    <!-- Portfolio Logo -->
+    <link href="images/markLogo.png" rel="icon">
+	<link href="images/markLogo.png" rel="apple-touch-icon">
+    <!-- Font Style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,400;0,8..144,500;0,8..144,700;1,8..144,200&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/432d2f3f7b.js" crossorigin="anonymous"></script>
+    <!-- Scroll Animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <nav>    
+        <div class="logo"><a href="#">M <span>C</span></a></div>
+        <ul class="nav-menu">
+            <li class="nav-item"><a href="#about-me" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#skillsets" class="nav-link">Skills</a></li>
+            <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+            <li class="nav-item"><a href="#contacts" class="nav-link">Contact</a></li>
+            <div class="btns">
+                <a class="resume-btn" target="_blank" href="https://drive.google.com/file/d/1W65TWHdklezUdSp3tKFvqbaMxQQ_de6o/view?usp=share_link"><button class="resume-button">Resume</button></a>
+            </div>
+        </ul>
+    </nav>
+    <!-- Hero Section -->
+    <section class="container">
+        <div class="wrapper">
+            <div class="cols cols0">
+                <span class="topline">Hello</span>
+                <h1>I'm <span class="multiText"></span></h1>
+                <p>Pursuing my goal of becoming a front-end web developer.</p>
+                
+            </div>
+            <div class="cols cols1">
+                <div class="imgbox">
+                    <img src="images/splash.png" id="splash">
+                    <img src="images/profileNoBg.png" alt="" class="profile-img">
+                </div>
+            </div>
+        </div>
+     </section>
+
+    <!-- About Section -->
+    <section class="about" id="about-me">
+        <div class="about-container">
+            <div class="about-pic-container">
+                <img src="images/profile2.jpg" alt="" class="about-img">
+            </div>
+            <div class="about-content">
+                <div class="about-title" data-aos="fade-right" data-aos-offset="200" data-aos-duration="1000">
+                    About Myself...
+                </div>
+                <div class="about-message" data-aos="fade-left" data-aos-offset="200" data-aos-duration="1000">
+                    Hello there! As an aspiring frontend web developer, I have experience in JavaScript, Bootstrap, Sass, HTML, and CSS. I'm passionate about designing user-friendly, aesthetically pleasing websites, and I'm constantly searching for ways to improve my skills. Using my knowledge and expertise, I try to develop unique and interesting digital solutions.
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Skillset Section -->
+    <section class="skillset" id="skillsets">
+        <div class="skill-container">
+            <h2 data-aos="fade-right" data-aos-offset="200" data-aos-duration="1000">Skills</h2>
+                <p data-aos="fade-left" data-aos-offset="200" data-aos-duration="1000">My experience in these technologies allows me to create dynamic, interactive, and visually appealing websites that engage users and meet business needs.</p>
+                <div class="content">
+                    <div class="card">
+                        <div class="content-pic"><img src="images/htmlLogo.png"></div>
+                    </div>
+                    <div class="card">
+                        <div class="content-pic"><img src="images/cssLogo.png"></div>
+                    </div>
+                    <div class="card">
+                        <div class="content-pic"><img src="images/javascriptLogo.png"></div>
+                    </div>
+                    <div class="card">
+                        <div class="content-pic"><img src="images/scssLogo.png"></div>
+                    </div>
+                    <div class="card">
+                        <div class="content-pic"><img src="images/bootstrapLogo.png"></div>
+                    </div>
+                    <!-- <div class="card">
+                        <div class="content-pic"><img src="images/reactjsLogo.png"></div>
+                    </div> -->
+                </div>   
+                <!-- <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>SCSS</li>
+                        <li>Javascript</li>
+                        <li>Bootstrap</li>
+                        <li>Tailwind</li>
+                        <li>ReactJS</li>
+                    </ul> -->
+        </div>
+    </section>
+
+
+
+    <!-- Project Section -->
+    <section class="project" id="projects">
+        <div class="project-container">
+            <h2 data-aos="fade-right" data-aos-offset="200" data-aos-duration="1000">Projects</h2>
+                <div class="card-container">
+                    <div class="project-card" data-aos="fade-down" data-aos-offset="200" data-aos-duration="1000">
+                        <img src="images/projectImages/pinas_app_img.jpg" loop autoplay muted alt="" class="project-pic">
+                        <b></b>
+                        <div class="project-content">
+                        <p class="project-title"><span>Pinas Travel Guide App</span></p>
+                        <p class="project-message">Android Studio was used to build this project.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container"> 
+                    <div class="project-card" data-aos="fade-down" data-aos-offset="200" data-aos-duration="1000">
+                        <img src="images/projectImages/youtube-clone2.JPG" loop autoplay muted alt="" class="project-pic">
+                        <b></b>
+                        <div class="project-content">
+                        <p class="project-title"><span>Youtube Clone</span></p>
+                        <p class="project-message">HTML and CSS was used to build this project.</p>
+                        <a href="Youtube Clone/index.html" target="_blank" class="project-btn"><button class="project-btn-text">Visit</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="project-card" data-aos="fade-down" data-aos-offset="200" data-aos-duration="1000">
+                        <img src="images/projectImages/login-form.JPG" loop autoplay muted alt="" class="project-pic-log">
+                        <b></b>
+                        <div class="project-content">
+                        <p class="project-title"><span>Login/Registration Form</span></p>
+                        <p class="project-message">HTML, CSS and Javascript was used to build this project.</p>
+                        <a href="Login&RegistrationForm/login.html" target="_blank" class="project-btn"><button class="project-btn-text">Visit</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="project-card" data-aos="fade-down" data-aos-offset="200" data-aos-duration="1000">
+                        <img src="images/projectImages/App_dev_todo_list.png" loop autoplay muted alt="" class="project-pic">
+                        <b></b>
+                        <div class="project-content">
+                        <p class="project-title"><span>ToDo List App</span></p>
+                        <p class="project-message">React Native was used to build this.</p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contacts">
+        <div class="contact-container">
+            <h2 data-aos="fade-right" data-aos-offset="200" data-aos-duration="1000">Get in touch with me.</h2>
+                <div class="icons">
+                   <a href="https://mail.google.com/mail/u/0/#search/marklesterb22%40gmail.com" target="_blank" class="social-icons"><i class="fa fa-google"></i></a>
+                   <a href="https://www.facebook.com/marklester.buenaventura.5" target="_blank" class="social-icons"><i class="fa fa-facebook-f fb" ></i></a>
+                   <!-- <a href="https://github.com/" target="_blank" class="social-icons" ><i class="fa fa-github"></i></a> -->
+                   <a href="https://www.linkedin.com/in/mark-lester-buenaventura-42ab6624b?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BfHPPAzSaTamA5%2BdmE0hw1A%3D%3D" target="_blank" class="social-icons"><i class="fa fa-linkedin-square" ></i></a>
+                </div>
+        </div>
+    </section>
+
+    <div class="parent">
+        <div class="child"></div>
+    </div>
+
+    <!-- Footer Section -->
+<footer>
+    Build By Mark Lester Buenaventura
+</footer>
+
+
+<!-- Scroll Script -->
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typingEffect = new Typed(".multiText", {
+            strings : ["Mark Lester", "a Coder"],
+            loop : true,
+            typeSpeed : 110,
+            backSpeed : 110,
+            backDelay : 1500
+        })
+    </script>
+</body>
+</html>
+
+
+<!-- Scroll Animation Attributes-->
+<!-- <div
+data-aos="fade-up"
+data-aos-offset="200"
+data-aos-delay="50"
+data-aos-duration="1000"
+data-aos-easing="ease-in-out"
+data-aos-mirror="true"
+data-aos-once="false"
+data-aos-anchor-placement="top-center"
+>
+</div> -->
