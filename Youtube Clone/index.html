@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="images/general_Icons&Images/youtube-Icon.png" rel="icon">
+    <title>Youtube Clone</title>
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="styles/genaral.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <script src="https://kit.fontawesome.com/432d2f3f7b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="header">
+        <div class="left-section">
+            <img class="hamburger-menu" src="images/general_Icons&Images/hamburger-menu.svg" alt="">
+            
+            <img class="youtube-logo" src="images/general_Icons&Images/youtube-logo.svg" alt="">
+        </div>
+        <div class="middle-section">
+            <input class="search-bar" type="text" placeholder="Search">
+            <button class="search-btn">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <div class="tooltip">Search</div>
+            </button>
+            <button class="voice-search-btn">
+                <i class="fa-solid fa-microphone"></i>
+                <div class="tooltip">Search with your voice</div>
+            </button>
+        </div>
+        <div class="right-section">
+            <div class="upload-container">
+                <img class="upload-icon" src="images/general_Icons&Images/upload.svg" alt="">
+                <div class="tooltip">Create</div>
+            </div>
+            <div class="youtube-apps-container">
+                <img class="yt-apps-icon" src="images/general_Icons&Images/youtube-apps.svg" alt="">
+                <div class="tooltip">Youtube apps</div>
+            </div>
+            <div class="notification-icon-container">
+                <img class="notification-icon" src="images/general_Icons&Images/notifications.svg" alt="">
+                <div class="notification-count">5</div>
+                <div class="tooltip">Notifications</div>
+            </div>
+            <img class="profile-img" src="images/general_Icons&Images/dogfriend2.jpg" alt="">
+        </div>
+    </div>
+<!-- Sidebar -->
+    <div class="sidebar">
+        <div class="sidebar-link"><img src="images/general_Icons&Images/home.svg" alt="" class="sidebar-icon"><div class="sidebar-link-name">Home</div></div>
+        <div class="sidebar-link"><img src="images/general_Icons&Images/explore.svg" alt="" class="sidebar-icon"><div class="sidebar-link-name">Explore</div></div>
+        <div class="sidebar-link"><img src="images/general_Icons&Images/subscriptions.svg" alt="" class="sidebar-icon"><div class="sidebar-link-name">subscriptions</div></div>
+        <div class="sidebar-link"><img src="images/general_Icons&Images/originals.svg" alt="" class="sidebar-icon"><div class="sidebar-link-name">originals</div></div>
+        <div class="sidebar-link"><img src="images/general_Icons&Images/youtube-music.svg" alt="" class="sidebar-icon"><div class="sidebar-link-name">youtube music</div></div>
+        <div class="sidebar-link"><img src="images/general_Icons&Images/library.svg" alt="" class="sidebar-icon"><div class="sidebar-link-name">Library</div></div>
+    </div>
+    
+<!-- Videos -->
+    <div class="video-grid">
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=-44wr_zM9hI"><img class="video-1" src="images/general_Icons&Images/preview1.webp"></a>
+                    <div class="video-time-stamp">16:25</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <a href="https://www.youtube.com/@behappy2695"><img class="channel-logo" src="images/YoutuberLogo/behappylogo.jpg"></a>
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        <a href="https://www.youtube.com/watch?v=-44wr_zM9hI"><strong>Don't forget to be happy - Pop chill playlist that put you in better mood</strong></a>
+                    </p>
+                    <a href="https://www.youtube.com/@behappy2695">
+                        <p class="youtuber">
+                            be happy
+                        </p>
+                    </a>
+                    <p class="video-stats">
+                        69 views &#183; Sep 6, 2022
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=XudTRA2D4eA"><img class="video-1" src="images/general_Icons&Images/preview2.webp"></a>
+                <div class="video-time-stamp">25:11</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <a href="https://www.youtube.com/@behappy2695"><img class="channel-logo" src="images/YoutuberLogo/behappylogo.jpg"></a>
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        <a href="https://www.youtube.com/watch?v=XudTRA2D4eA"><strong>Don't forget to be happy - Chilled out music mix that bring you good energy</strong></a>
+                    </p>
+                    <a href="https://www.youtube.com/@behappy2695">
+                        <p class="youtuber">
+                            be happy
+                     </p>
+                    </a>
+                    <p class="video-stats">
+                        1 view &#183; Sep 7, 2022
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=mP0RAo9SKZk"><img class="video-1" src="images/thumbnail/thumbnail-2.webp" ></a>
+                <div class="video-time-stamp">8:22</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <a href="https://www.youtube.com/@markiplier"><img class="channel-logo" src="images/YoutuberLogo/channel-2.jpeg"></a>
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        <a href="https://www.youtube.com/watch?v=mP0RAo9SKZk"><strong>
+                            Try Not To Laugh Challenge #9</strong></a>
+                    </p>
+                    <a href="https://www.youtube.com/@markiplier">
+                        <p class="youtuber">
+                            Markiplier
+                        </p>
+                    </a>
+                    <p class="video-stats">
+                        19M views &#183; 4 years ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=094y1Z2wpJg"><img class="video-1" src="images/thumbnail/thumbnail-4.webp" ></a>
+                <div class="video-time-stamp">22:09</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <a href="https://www.youtube.com/@veritasium"><img class="channel-logo" src="images/YoutuberLogo/channel-4.jpeg"></a>
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        <a href="https://www.youtube.com/watch?v=094y1Z2wpJg"><strong>The Simplest Math Problem No One Can Solve - Collatz Conjecture </strong></a>
+                    </p>
+                    <a href="https://www.youtube.com/@veritasium">
+                        <p class="youtuber">
+                            Veritasium
+                        </p>
+                    </a>
+                    <p class="video-stats">
+                        18M views &#183; 4 months ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=86CQq3pKSUw"><img class="video-1" src="images/thumbnail/thumbnail-5.webp" ></a>
+                <div class="video-time-stamp">11:17</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <a href="https://www.youtube.com/@CSDojo"><img class="channel-logo" src="images/YoutuberLogo/channel-5.jpeg"></a>
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        <a href="https://www.youtube.com/watch?v=86CQq3pKSUw"><strong>Kadane's Algorithm to Maximum Sum Subarray Problem</strong></a>
+                    </p>
+                    <a href="https://www.youtube.com/@CSDojo">
+                        <p class="youtuber">
+                            CS Dojo
+                        </p>
+                    </a>
+                    <p class="video-stats">
+                        519K views &#183; 5 years ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=yXWw0_UfSFg"><img class="video-1" src="images/thumbnail/thumbnail-6.webp" ></a>
+                <div class="video-time-stamp">19:59</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <a href=""><img class="channel-logo" src="images/YoutuberLogo/channel-6.jpeg"></a>
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        <a href="https://www.youtube.com/watch?v=yXWw0_UfSFg"><strong>Anything You Can Fit In The Circle I’ll Pay For</strong></a>
+                    </p>
+                    <a href="https://www.youtube.com/@MrBeast">
+                        <p class="youtuber">
+                            MrBeast
+                        </p>
+                    </a>
+                    <p class="video-stats">
+                        141M views &#183; 1 year ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=fNVa1qMbF9Y"><img class="video-1" src="images/thumbnail/thumbnail-7.webp" ></a>
+                <div class="video-time-stamp">10:13</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <a href="https://www.youtube.com/@RealLifeLore"><img class="channel-logo" src="images/YoutuberLogo/channel-7.jpeg"></a>
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        <a href="https://www.youtube.com/watch?v=fNVa1qMbF9Y"><strong>Why Planes Don't Fly Over Tibet</strong></a>
+                    </p>
+                    <a href="https://www.youtube.com/@RealLifeLore">
+                        <p class="youtuber">
+                            RealLifeLore
+                        </p>
+                    </a>
+                    <p class="video-stats">
+                        6.6M views &#183; 1 year ago
+                    </p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=lFm4EM1juls"><img class="video-1" src="images/thumbnail/thumbnail-8.webp" ></a>
+                <div class="video-time-stamp">7:12</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <a href="https://www.youtube.com/@adin"><img class="channel-logo" src="images/YoutuberLogo/channel-8.jpeg"></a>
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        <a href="https://www.youtube.com/watch?v=lFm4EM1juls"><strong>Inside The World's Biggest Passenger Plane</strong></a>
+                    </p>
+                    <a href="https://www.youtube.com/@adin">
+                        <p class="youtuber">
+                            Tech Vision
+                        </p>
+                    </a>
+                    <p class="video-stats">
+                        3.7M views &#183; 10 months ago
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=ixmxOlcrlUc"><img class="video-1" src="images/thumbnail/thumbnail-9.webp" ></a>
+                <div class="video-time-stamp">13:17</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <a href="https://www.youtube.com/@OFFICIALTHENXSTUDIOS"><img class="channel-logo" src="images/YoutuberLogo/channel-9.jpeg"></a>
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        <a href="https://www.youtube.com/watch?v=ixmxOlcrlUc"><strong>The SECRET to Super Human STRENGTH</strong></a>
+                    </p>
+                    <a href="https://www.youtube.com/@OFFICIALTHENXSTUDIOS">
+                        <p class="youtuber">
+                            ThenX
+                        </p>
+                    </a>
+                    <p class="video-stats">
+                        20M views &#183; 3 year ago
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=R2vXbFp5C9o"><img class="video-1" src="images/thumbnail/thumbnail-10.webp" ></a>
+                <div class="video-time-stamp">7:53</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <a href="https://www.youtube.com/@InsiderBusiness"><img class="channel-logo" src="images/YoutuberLogo/channel-10.jpeg"></a>
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        <a href="https://www.youtube.com/watch?v=R2vXbFp5C9o">
+                            <strong>
+                                How The World's Largest Cruise Ship Makes 30,000 Meals Every Day</strong>
+                        </a>
+                    </p>
+                    <a href="https://www.youtube.com/@InsiderBusiness">
+                        <p class="youtuber">
+                            Business Insider
+                        </p>
+                    </a>
+                    <p class="video-stats">
+                        14M views &#183; 1 year ago
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=0nZuYyXET3s"><img class="video-1" src="images/thumbnail/thumbnail-11.webp" ></a>
+                <div class="video-time-stamp">4:10</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <a href="https://www.youtube.com/@Destinationtips"><img class="channel-logo" src="images/YoutuberLogo/channel-11.jpeg"></a>
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        <a href="https://www.youtube.com/watch?v=0nZuYyXET3s">
+                            <strong>
+                                Dubai's Crazy Underwater Train and Other Things #Only in Dubai</strong>
+                        </a>
+                    </p>
+                    <a href="https://www.youtube.com/@Destinationtips">
+                        <p class="youtuber">
+                            Destination Tips
+                        </p>
+                    </a>
+                    <p class="video-stats">
+                        3M views &#183; 1 year ago
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="video-preview">
+            <div class="thumbnail-row">
+                <a href="https://www.youtube.com/watch?v=9iMGFqMmUFs"><img class="video-1" src="images/thumbnail/thumbnail-12.webp" ></a>
+                <div class="video-time-stamp">4:51</div>
+            </div>
+            <div class="video-info-grid">
+                <div class="channel-picture">
+                    <a href="https://www.youtube.com/@TEDEd"><img class="channel-logo" src="images/YoutuberLogo/channel-12.jpeg"></a>
+                </div>
+                <div class="video-info">
+                    <p class="video-title">
+                        <a href="https://www.youtube.com/watch?v=9iMGFqMmUFs">
+                            <strong>
+                                What would happen if you didn’t drink water? - Mia Nacamulli</strong>
+                            </a>
+                    </p>
+                    <a href="https://www.youtube.com/@TEDEd">
+                        <p class="youtuber">
+                            TED-Ed
+                        </p>
+                    </a>
+                    <p class="video-stats">
+                        12M views &#183; 5 years ago
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+    <!-- <div class="div-example">
+        <p class="head">
+            Install Youtube Music
+        </p>
+        <p class="sub-title">
+            Add Youtube Music to your desktop for quick and easy access
+        </p>
+    </div>
+    
+    <div class="twitter-div">
+        <img class="dog" src="images/dogimg.jpg">
+        <input class="tweet-text" type="text" placeholder="What's happening?">
+        <button class="tweet-btn">
+            Tweet
+        </button>
+    </div>
+
+    <div class="friend-request">
+        <img class="friend-pic" src="images/dogfriend1.jpg">
+        <p class="friend-name">
+            Oliver
+        </p>
+        <p class="mutual-friends">
+            2 mutual firends
+        </p>
+        <button class="add-friend-btn">
+            Add Friend
+        </button>
+    </div>
+    <div class="friend-request">
+        <img class="friend-pic" src="images/dogfriend2.jpg">
+        <p class="friend-name">
+            Rex
+        </p>
+        <p class="mutual-friends">
+            3 mutual firends
+        </p>
+        <button class="add-friend-btn">
+            Add Friend
+        </button>
+    </div>
+    <div class="friend-request">
+        <img class="friend-pic" src="images/dogfriend3.jpg">
+        <p class="friend-name">
+            Chowchow
+        </p>
+        <p class="mutual-friends">
+            4 mutual firends
+        </p>
+        <button class="add-friend-btn">
+            Add Friend
+        </button>
+    </div> -->
+
+
+
+
+
+</body>
+</html>
